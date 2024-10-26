@@ -1,0 +1,24 @@
+.header-wrapper {
+  background: url(/Bitmap.png) no-repeat center/cover;
+  padding-top: 24px;
+}
+.header-nav {
+  margin-bottom: 120px;
+}
+.header-subtitule {
+  margin-bottom: 220px;
+  color: #ffffff;
+}
+.header-title {
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+.header-desc {
+  margin-bottom: 45px;
+  color: #ffffff;
+}
+
+.container {
+  margin-left: 164px;
+  margin-right: 164px;
+}

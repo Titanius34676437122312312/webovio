@@ -1,2 +1,28 @@
 @import "colors";
 @import "reset";
+.header{
+    &-wrapper{
+        background: url(/Bitmap.png) no-repeat center/cover;
+        padding-top: 24px;
+
+    }
+    &-nav{
+        margin-bottom: 120px;
+    }
+    &-subtitule{
+        margin-bottom: 220px;
+        color: $mainWhite;
+    }
+    &-title{
+        margin-bottom: 24px;
+        color: $mainWhite;
+    }
+    &-desc{
+        margin-bottom: 45px;
+        color: $mainWhite;
+    }
+}
+.container{
+    margin-left: 164px;
+    margin-right: 164px;
+}
