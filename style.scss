@@ -4,6 +4,7 @@
     &-wrapper{
         background: url(/Bitmap.png) no-repeat center/cover;
         padding-top: 24px;
+        padding-bottom: 210px;
 
     }
     &-nav{
@@ -25,4 +26,43 @@
 .container{
     margin-left: 164px;
     margin-right: 164px;
+}
+.strategy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left{
+        &-subtitule{
+            color: #4D533C;
+            font-size: 14px;
+            margin-bottom: 29px;
+        }
+        &-title{
+            color: #4D533C;
+            font-size: 36px;
+            width: 260px;
+            line-height: 40px;
+        }
+        &-desc{
+            color: #213842;
+            width: 425;
+            font-weight: 200;
+            margin-bottom: 39px;
+        }
+        &-link{
+            color: #D4D6D4;
+        }
+    }
+    &-right{
+        width: 40%;
+        &-title{
+            color: #4D533C;
+            margin-bottom: 50px;
+        }
+        &-container{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+    }
 }
