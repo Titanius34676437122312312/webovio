@@ -1,6 +1,7 @@
 .header-wrapper {
   background: url(/Bitmap.png) no-repeat center/cover;
   padding-top: 24px;
+  padding-bottom: 210px;
 }
 .header-nav {
   margin-bottom: 120px;
@@ -21,4 +22,65 @@
 .container {
   margin-left: 164px;
   margin-right: 164px;
+}
+
+.strategy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.strategy-container {
+  display: flex;
+  -moz-column-gap: 66px;
+       column-gap: 66px;
+  padding: 62px;
+  position: absolute;
+  right: 0;
+  top: 85%;
+  background: white;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+}
+.strategy-left-subtitule {
+  color: #4D533C;
+  font-size: 14px;
+  margin-bottom: 29px;
+}
+.strategy-left-title {
+  color: #4D533C;
+  font-size: 36px;
+  width: 260px;
+  line-height: 40px;
+}
+.strategy-left-desc {
+  color: #213842;
+  width: 425;
+  font-weight: 200;
+  margin-bottom: 39px;
+}
+.strategy-left-link {
+  color: #D4D6D4;
+}
+.strategy-right {
+  width: 40%;
+}
+.strategy-right-title {
+  color: #4D533C;
+  margin-bottom: 50px;
+}
+.strategy-right-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.project-top {
+  display: flex;
+  justify-content: space-between;
+}
+.project-top-title {
+  margin-left: 165px;
+  margin-right: 133px;
+}
+.project-top-desc {
+  color: #213842;
 }
