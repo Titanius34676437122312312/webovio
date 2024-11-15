@@ -78,7 +78,20 @@
     }
 }
 .project{
+    &-see{
+        font-size: 16px;
+        color: #D4D6D4;
+        margin-top: 90px;
+    }
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        &-right{
+            width: 40%;
+        }
+    }
     &-top{
+
         display: flex;
         justify-content: space-between;
         &-title{
@@ -86,20 +99,22 @@
             margin-right: 133px;
         }
         &-desc{
+            width: 518px;
+            height: 488px;
             color: #213842;
+            text-align: left;
         }
     }
 }
 .Balenciaga{
-    color: 4D533C;
-    height: 100px ;
-    width: 475px;
+    font-size: 36px;
+    color: #4D533C;
+    font-weight: 900;
 }
 .resumen{
     color: #213842;
-    width: 50px;
-    height: 25px;
 }
 .box{
     
 }
+.card
